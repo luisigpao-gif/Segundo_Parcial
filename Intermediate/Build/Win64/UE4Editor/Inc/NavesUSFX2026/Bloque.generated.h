@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define NAVESUSFX2026_Bloque_generated_h
 
-#define NavesUSFX2026_Source_NavesUSFX2026_Bloque_h_14_SPARSE_DATA
-#define NavesUSFX2026_Source_NavesUSFX2026_Bloque_h_14_RPC_WRAPPERS
-#define NavesUSFX2026_Source_NavesUSFX2026_Bloque_h_14_RPC_WRAPPERS_NO_PURE_DECLS
-#define NavesUSFX2026_Source_NavesUSFX2026_Bloque_h_14_INCLASS_NO_PURE_DECLS \
+#define SegundoParcial_Source_NavesUSFX2026_Bloque_h_14_SPARSE_DATA
+#define SegundoParcial_Source_NavesUSFX2026_Bloque_h_14_RPC_WRAPPERS
+#define SegundoParcial_Source_NavesUSFX2026_Bloque_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define SegundoParcial_Source_NavesUSFX2026_Bloque_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABloque(); \
 	friend struct Z_Construct_UClass_ABloque_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(ABloque)
 
 
-#define NavesUSFX2026_Source_NavesUSFX2026_Bloque_h_14_INCLASS \
+#define SegundoParcial_Source_NavesUSFX2026_Bloque_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesABloque(); \
 	friend struct Z_Construct_UClass_ABloque_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(ABloque)
 
 
-#define NavesUSFX2026_Source_NavesUSFX2026_Bloque_h_14_STANDARD_CONSTRUCTORS \
+#define SegundoParcial_Source_NavesUSFX2026_Bloque_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ABloque(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ABloque) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define NavesUSFX2026_Source_NavesUSFX2026_Bloque_h_14_ENHANCED_CONSTRUCTORS \
+#define SegundoParcial_Source_NavesUSFX2026_Bloque_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ABloque(ABloque&&); \
@@ -58,28 +58,28 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ABloque)
 
 
-#define NavesUSFX2026_Source_NavesUSFX2026_Bloque_h_14_PRIVATE_PROPERTY_OFFSET
-#define NavesUSFX2026_Source_NavesUSFX2026_Bloque_h_11_PROLOG
-#define NavesUSFX2026_Source_NavesUSFX2026_Bloque_h_14_GENERATED_BODY_LEGACY \
+#define SegundoParcial_Source_NavesUSFX2026_Bloque_h_14_PRIVATE_PROPERTY_OFFSET
+#define SegundoParcial_Source_NavesUSFX2026_Bloque_h_11_PROLOG
+#define SegundoParcial_Source_NavesUSFX2026_Bloque_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	NavesUSFX2026_Source_NavesUSFX2026_Bloque_h_14_PRIVATE_PROPERTY_OFFSET \
-	NavesUSFX2026_Source_NavesUSFX2026_Bloque_h_14_SPARSE_DATA \
-	NavesUSFX2026_Source_NavesUSFX2026_Bloque_h_14_RPC_WRAPPERS \
-	NavesUSFX2026_Source_NavesUSFX2026_Bloque_h_14_INCLASS \
-	NavesUSFX2026_Source_NavesUSFX2026_Bloque_h_14_STANDARD_CONSTRUCTORS \
+	SegundoParcial_Source_NavesUSFX2026_Bloque_h_14_PRIVATE_PROPERTY_OFFSET \
+	SegundoParcial_Source_NavesUSFX2026_Bloque_h_14_SPARSE_DATA \
+	SegundoParcial_Source_NavesUSFX2026_Bloque_h_14_RPC_WRAPPERS \
+	SegundoParcial_Source_NavesUSFX2026_Bloque_h_14_INCLASS \
+	SegundoParcial_Source_NavesUSFX2026_Bloque_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define NavesUSFX2026_Source_NavesUSFX2026_Bloque_h_14_GENERATED_BODY \
+#define SegundoParcial_Source_NavesUSFX2026_Bloque_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	NavesUSFX2026_Source_NavesUSFX2026_Bloque_h_14_PRIVATE_PROPERTY_OFFSET \
-	NavesUSFX2026_Source_NavesUSFX2026_Bloque_h_14_SPARSE_DATA \
-	NavesUSFX2026_Source_NavesUSFX2026_Bloque_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	NavesUSFX2026_Source_NavesUSFX2026_Bloque_h_14_INCLASS_NO_PURE_DECLS \
-	NavesUSFX2026_Source_NavesUSFX2026_Bloque_h_14_ENHANCED_CONSTRUCTORS \
+	SegundoParcial_Source_NavesUSFX2026_Bloque_h_14_PRIVATE_PROPERTY_OFFSET \
+	SegundoParcial_Source_NavesUSFX2026_Bloque_h_14_SPARSE_DATA \
+	SegundoParcial_Source_NavesUSFX2026_Bloque_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	SegundoParcial_Source_NavesUSFX2026_Bloque_h_14_INCLASS_NO_PURE_DECLS \
+	SegundoParcial_Source_NavesUSFX2026_Bloque_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -87,7 +87,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> NAVESUSFX2026_API UClass* StaticClass<class ABloque>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID NavesUSFX2026_Source_NavesUSFX2026_Bloque_h
+#define CURRENT_FILE_ID SegundoParcial_Source_NavesUSFX2026_Bloque_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

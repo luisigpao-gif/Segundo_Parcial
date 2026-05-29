@@ -6,6 +6,8 @@
 #include "Components/StaticMeshComponent.h"
 #include "GameFramework/ProjectileMovementComponent.h"
 #include "Engine/StaticMesh.h"
+#include "Enemigo.h"
+
 
 ANavesUSFX2026Projectile::ANavesUSFX2026Projectile() 
 {
@@ -35,11 +37,26 @@ ANavesUSFX2026Projectile::ANavesUSFX2026Projectile()
 
 void ANavesUSFX2026Projectile::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
 {
-	// Only add impulse and destroy projectile if we hit a physics
-	if ((OtherActor != nullptr) && (OtherActor != this) && (OtherComp != nullptr) && OtherComp->IsSimulatingPhysics())
+	// Verificamos que chocamos con algo válido
+	if ((OtherActor != nullptr) && (OtherActor != this) && (OtherComp != nullptr))
 	{
-		OtherComp->AddImpulseAtLocation(GetVelocity() * 20.0f, GetActorLocation());
+		// 1. Intentamos hacer un "Cast" a AEnemigo
+		AEnemigo* EnemigoImpactado = Cast<AEnemigo>(OtherActor);
+
+		// 2. Si el casteo es exitoso, significa que la bala golpeó a un enemigo
+		if (EnemigoImpactado != nullptr)
+		{
+			// ¡AQUÍ OCURRE LA MAGIA DEL PATRÓN!
+			// Al llamar a Morir(), el enemigo avisa al Gestor (OnNotify) y luego se destruye.
+			EnemigoImpactado->Morir();
+		}
+		else if (OtherComp->IsSimulatingPhysics())
+		{
+			// Si no era un enemigo, pero era algo con físicas (como tus bloques), lo empuja (tu código original)
+			OtherComp->AddImpulseAtLocation(GetVelocity() * 20.0f, GetActorLocation());
+		}
 	}
 
+	// El proyectil se destruye al impactar contra cualquier cosa
 	Destroy();
 }

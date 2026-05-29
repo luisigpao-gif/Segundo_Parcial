@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-
+#include "Observer.h"
 #include "Enemigo.generated.h"
 
 class UStaticMeshComponent;;
@@ -22,11 +22,20 @@ private:
 
 	float velocidadMovimiento = 200.0f; // Velocidad de movimiento del enemigo
 
+	// 2. LA LISTA DE SUSCRIPTORES
+	TArray<IObserver*> Observadores;
+
 public:	
 	// Sets default values for this actor's properties
 	AEnemigo();
 
 	UStaticMeshComponent* mallaEnemigo;
+
+
+	// 3. MÉTODOS DEL PATRÓN OBSERVER
+	void Suscribir(IObserver* Observador);
+	void Morir(); // Llamaremos a esto cuando el enemigo pierda toda su vida
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

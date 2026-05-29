@@ -14,7 +14,7 @@ class UAmigo : public UInterface
 };
 
 /**
- * 
+ *
  */
 class NAVESUSFX2026_API IAmigo
 {

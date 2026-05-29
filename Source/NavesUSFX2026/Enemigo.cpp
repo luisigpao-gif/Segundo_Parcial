@@ -25,8 +25,6 @@ void AEnemigo::BeginPlay()
 {
 	Super::BeginPlay();
 
-	mallaEnemigo = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("MallaEnemigo"));
-
 }
 
 // Called every frame
@@ -36,3 +34,27 @@ void AEnemigo::Tick(float DeltaTime)
 
 }
 
+// Método para que alguien se anote en la lista
+void AEnemigo::Suscribir(IObserver* Observador)
+{
+	if (Observador != nullptr)
+	{
+		Observadores.Add(Observador);
+	}
+}
+
+// Método que se llama cuando el enemigo es destruido
+void AEnemigo::Morir()
+{
+	// 1. Recorremos la lista y le avisamos a cada uno que hemos muerto
+	for (IObserver* Obs : Observadores)
+	{
+		if (Obs != nullptr)
+		{
+			Obs->OnNotify(); // ¡Gritamos la notificación!
+		}
+	}
+
+	// 2. Destruimos al actor de Unreal
+	Destroy();
+}
