@@ -1,0 +1,3 @@
+D:\src_SIS457\NavesUSFX2026\Intermediate\Build\Win64\UE4Editor\Development\NavesUSFX2026\Definitions.NavesUSFX2026.h
+D:\src_SIS457\NavesUSFX2026\Source\NavesUSFX2026\Enemigo.h
+D:\src_SIS457\NavesUSFX2026\Intermediate\Build\Win64\UE4Editor\Inc\NavesUSFX2026\Enemigo.generated.h

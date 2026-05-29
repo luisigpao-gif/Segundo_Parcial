@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\NavesUSFX2026.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F60D82A4-17A7-4318-A1DC-EDF60B00901C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\NavesUSFX2026.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\NavesUSFX2026Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{ED728A29-B0E8-44A3-B116-13E26AAEE95A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\NavesUSFX2026">
+      <UniqueIdentifier>{666CBA7E-62A3-4CC6-937F-58CC54EF2897}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\NavesUSFX2026\Bloque.cpp">
+      <Filter>Source\NavesUSFX2026</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NavesUSFX2026\Bloque.h">
+      <Filter>Source\NavesUSFX2026</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NavesUSFX2026\Bonus.cpp">
+      <Filter>Source\NavesUSFX2026</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NavesUSFX2026\Bonus.h">
+      <Filter>Source\NavesUSFX2026</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NavesUSFX2026\Enemigo.cpp">
+      <Filter>Source\NavesUSFX2026</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NavesUSFX2026\Enemigo.h">
+      <Filter>Source\NavesUSFX2026</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NavesUSFX2026\EnemigoAnimal.cpp">
+      <Filter>Source\NavesUSFX2026</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NavesUSFX2026\EnemigoAnimal.h">
+      <Filter>Source\NavesUSFX2026</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NavesUSFX2026\GeneradorLaberinto.cpp">
+      <Filter>Source\NavesUSFX2026</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NavesUSFX2026\GeneradorLaberinto.h">
+      <Filter>Source\NavesUSFX2026</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\NavesUSFX2026\NavesUSFX2026.Build.cs">
+      <Filter>Source\NavesUSFX2026</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\NavesUSFX2026\NavesUSFX2026.cpp">
+      <Filter>Source\NavesUSFX2026</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NavesUSFX2026\NavesUSFX2026.h">
+      <Filter>Source\NavesUSFX2026</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NavesUSFX2026\NavesUSFX2026GameMode.cpp">
+      <Filter>Source\NavesUSFX2026</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NavesUSFX2026\NavesUSFX2026GameMode.h">
+      <Filter>Source\NavesUSFX2026</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NavesUSFX2026\NavesUSFX2026Pawn.cpp">
+      <Filter>Source\NavesUSFX2026</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NavesUSFX2026\NavesUSFX2026Pawn.h">
+      <Filter>Source\NavesUSFX2026</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NavesUSFX2026\NavesUSFX2026Projectile.cpp">
+      <Filter>Source\NavesUSFX2026</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NavesUSFX2026\NavesUSFX2026Projectile.h">
+      <Filter>Source\NavesUSFX2026</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NavesUSFX2026\ObstaculoEnemigo.cpp">
+      <Filter>Source\NavesUSFX2026</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NavesUSFX2026\ObstaculoEnemigo.h">
+      <Filter>Source\NavesUSFX2026</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "NavesUSFX2026",
+			"Path": "D:\\src_SIS457\\NavesUSFX2026\\Source\\NavesUSFX2026.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "NavesUSFX2026Editor",
+			"Path": "D:\\src_SIS457\\NavesUSFX2026\\Source\\NavesUSFX2026Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

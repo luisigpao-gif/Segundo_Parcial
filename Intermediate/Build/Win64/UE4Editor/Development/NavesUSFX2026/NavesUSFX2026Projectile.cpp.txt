@@ -1,0 +1,7 @@
+D:\src_SIS457\NavesUSFX2026\Intermediate\Build\Win64\UE4Editor\Development\NavesUSFX2026\Definitions.NavesUSFX2026.h
+D:\src_SIS457\NavesUSFX2026\Source\NavesUSFX2026\NavesUSFX2026Projectile.h
+D:\src_SIS457\NavesUSFX2026\Intermediate\Build\Win64\UE4Editor\Inc\NavesUSFX2026\NavesUSFX2026Projectile.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/ProjectileMovementComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ProjectileMovementComponent.generated.h
